@@ -1,0 +1,27 @@
+{
+  "name": "@siketyan/zenn",
+  "description": "My articles hosted on Zenn.",
+  "version": "1.0.0",
+  "author": "Naoki Ikeguchi <me@s6n.jp>",
+  "license": "MIT",
+  "homepage": "https://github.com/siketyan/zenn#readme",
+  "bugs": {
+    "url": "https://github.com/siketyan/zenn/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siketyan/zenn.git"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "new:article": "zenn new:article",
+    "new:book": "zenn new:book",
+    "postinstall": "symlink-dir ./node_modules/zenn-cli/dist ./zenn-cli"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^12.2.3",
+    "symlink-dir": "^5.0.1",
+    "vercel": "^23.1.2",
+    "zenn-cli": "^0.1.106"
+  }
+}
