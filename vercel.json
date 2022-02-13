@@ -4,26 +4,13 @@
     {
       "src": "app.js",
       "use": "@vercel/node",
-      "config": { "includeFiles": ["zenn-cli/server/preview/**"] }
-    },
-    {
-      "src": "zenn-cli/client/**",
-      "use": "@vercel/static",
-      "config": { "includeFiles": ["zenn-cli/client/**"] }
+      "config": { "includeFiles": ["./**"] }
     }
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
+      "src": "/(.*)",
       "dest": "app.js"
-    },
-    {
-      "src": "/",
-      "dest": "zenn-cli/client/index.html"
-    },
-    {
-      "src": "/(.+)",
-      "dest": "zenn-cli/client/$1"
     }
   ]
 }
