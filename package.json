@@ -13,7 +13,7 @@
     "url": "git+https://github.com/siketyan/zenn.git"
   },
   "scripts": {
-    "dev": "vercel dev",
+    "dev": "zenn preview",
     "new:article": "zenn new:article",
     "new:book": "zenn new:book",
     "postinstall": "symlink-dir ./node_modules/zenn-cli/dist ./zenn-cli"
