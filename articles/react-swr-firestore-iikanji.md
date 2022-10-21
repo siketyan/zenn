@@ -1,5 +1,5 @@
 ---
-title: "React + SWR で Firestore から **“いい感じ”** にデータを取得する方法"
+title: "React + SWR で Firestore から “いい感じ” にデータを取得する方法"
 emoji: "🔥"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["react", "swr", "firestore", "firebase"]
