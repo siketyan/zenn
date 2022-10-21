@@ -7,6 +7,10 @@ published: true
 publication_name: "chot"
 ---
 
+:::message
+この記事は以前ちょっと株式会社 社員ブログで公開していたものです
+:::
+
 こんにちは，外部技術顧問の しけちあ です．今回は， SSL (Secure Socket Layer) をご紹介します．
 
 ## SSL とは
