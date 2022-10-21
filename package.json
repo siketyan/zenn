@@ -21,7 +21,7 @@
   "devDependencies": {
     "@types/markdown-it": "^12.2.3",
     "symlink-dir": "^5.0.1",
-    "vercel": "^23.1.2",
-    "zenn-cli": "^0.1.106"
+    "vercel": "^28.4.12",
+    "zenn-cli": "^0.1.131"
   }
 }
