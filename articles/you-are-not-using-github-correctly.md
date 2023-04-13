@@ -4,6 +4,7 @@ emoji: "🔔"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["github", "notification", "通知", "新生活"]
 published: true
+publication_name: "yumemi_inc"
 ---
 
 4 月から新入社員となって本格的にエンジニアとして生活し始めた方も多いかと思います．いままであまり GitHub を使っておらず，会社から要求されてはじめてまともに使い始めた方もいるかもしれません．
