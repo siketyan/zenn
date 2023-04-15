@@ -4,7 +4,6 @@ emoji: "🔔"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["github", "notification", "通知", "新生活"]
 published: true
-publication_name: "yumemi_inc"
 ---
 
 4 月から新入社員となって本格的にエンジニアとして生活し始めた方も多いかと思います．いままであまり GitHub を使っておらず，会社から要求されてはじめてまともに使い始めた方もいるかもしれません．
@@ -80,7 +79,7 @@ Settings > Notifications > [Custom Routing](https://github.com/settings/notifica
 
 Notifications > [Watching](https://github.com/watching) から今ウォッチしているリポジトリの一覧と，ウォッチを解除したほうがよいリポジトリの提案を確認できます[^2] ．一括で Unwatch することもできます．特に気になるリポジトリがなければ，一括で Unwatch してしまいましょう．
 
-![Unwatch suggestions: These repositories may be causing unnecessary notifications.](/images/you-are-not-using-github-correctly//unwatch-suggestions.png)
+![Unwatch suggestions: These repositories may be causing unnecessary notifications.](/images/you-are-not-using-github-correctly/unwatch-suggestions.png)
 
 [^2]: 執筆時現在でこの機能はベータです．予告なく削除される可能性もあります．
 
