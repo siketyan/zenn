@@ -19,9 +19,9 @@
     "postinstall": "symlink-dir ./node_modules/zenn-cli/dist ./zenn-cli"
   },
   "devDependencies": {
-    "@types/markdown-it": "^12.2.3",
-    "symlink-dir": "^5.1.1",
-    "vercel": "^28.18.5",
-    "zenn-cli": "^0.1.141"
+    "@types/markdown-it": "^13.0.7",
+    "symlink-dir": "^5.2.1",
+    "vercel": "^33.5.2",
+    "zenn-cli": "^0.1.153"
   }
 }
