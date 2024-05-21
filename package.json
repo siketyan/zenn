@@ -12,16 +12,20 @@
     "type": "git",
     "url": "git+https://github.com/siketyan/zenn.git"
   },
+  "engines": {
+    "node": "22"
+  },
+  "packageManager": "pnpm@9.1.2",
+  "devDependencies": {
+    "@types/markdown-it": "^14.1.1",
+    "symlink-dir": "^6.0.0",
+    "vercel": "^34.2.0",
+    "zenn-cli": "^0.1.153"
+  },
   "scripts": {
     "dev": "zenn preview",
     "new:article": "zenn new:article",
     "new:book": "zenn new:book",
     "postinstall": "symlink-dir ./node_modules/zenn-cli/dist ./zenn-cli"
-  },
-  "devDependencies": {
-    "@types/markdown-it": "^13.0.7",
-    "symlink-dir": "^5.2.1",
-    "vercel": "^33.5.2",
-    "zenn-cli": "^0.1.153"
   }
 }
