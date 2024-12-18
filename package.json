@@ -1,7 +1,7 @@
 {
+  "private": true,
   "name": "@siketyan/zenn",
   "description": "My articles hosted on Zenn.",
-  "version": "1.0.0",
   "author": "Naoki Ikeguchi <me@s6n.jp>",
   "license": "MIT",
   "homepage": "https://github.com/siketyan/zenn#readme",
@@ -15,17 +15,16 @@
   "engines": {
     "node": "22"
   },
-  "packageManager": "pnpm@9.1.2",
+  "packageManager": "pnpm@9.15.0",
   "devDependencies": {
-    "@types/markdown-it": "^14.1.1",
-    "symlink-dir": "^6.0.0",
-    "vercel": "^34.2.0",
-    "zenn-cli": "^0.1.153"
+    "@types/markdown-it": "^14.1.2",
+    "symlink-dir": "^6.0.3",
+    "vercel": "^39.2.2",
+    "zenn-cli": "^0.1.158"
   },
   "scripts": {
     "dev": "zenn preview",
     "new:article": "zenn new:article",
-    "new:book": "zenn new:book",
-    "postinstall": "symlink-dir ./node_modules/zenn-cli/dist ./zenn-cli"
+    "new:book": "zenn new:book"
   }
 }
