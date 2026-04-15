@@ -15,12 +15,12 @@
   "engines": {
     "node": "24"
   },
-  "packageManager": "pnpm@10.23.0",
+  "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319",
   "devDependencies": {
     "@types/markdown-it": "^14.1.2",
-    "symlink-dir": "^9.0.0",
-    "vercel": "^48.10.14",
-    "zenn-cli": "^0.2.10"
+    "symlink-dir": "^10.0.1",
+    "vercel": "^51.2.1",
+    "zenn-cli": "^0.4.7"
   },
   "scripts": {
     "dev": "zenn preview",
