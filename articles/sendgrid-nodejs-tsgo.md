@@ -4,7 +4,7 @@ emoji: "✉️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["typescript", "sendgrid"]
 publication_name: "bitkey_dev"
-published: false
+published: true
 ---
 
 ## 事象
